@@ -1,9 +1,8 @@
 {
   "private": true,
   "version": "0.0.0",
-  "dependencies": {
-    "esbuild": "^0.14.21",
-    "ws": "^8.5.0"
+  "devDependencies": {
+    "esbuild": "^0.14.21"
   },
   "scripts": {
     "build": "esbuild src/index.js --bundle --minify --sourcemap --outfile=js/index.js"
